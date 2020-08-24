@@ -2,4 +2,44 @@
   font-weight: bold;
   font-size: 50px;
   color: black;
+  text-align: center;
+  font-family: Arial;
+}
+
+.form {
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: 20% 20%;
+  background-color: lightgrey;
+}
+
+.value1,
+.value2 {
+  background-color: lightblue;
+}
+
+.result {
+  background-color: lightgreen;
+  text-align: center;
+  font-weight: light;
+  font-size: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10%;
+  border-style: solid;
+  border-color: black;
+}
+
+.button {
+  background-color: lightgrey;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.selectedOp {
+  font-weight: bold;
+  background-color: white;
 }

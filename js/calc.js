@@ -28,5 +28,5 @@ function calc() {
 
   // Reference to the result <div>.
   // The result of the caculation is inputted in to the <div>.
-  document.querySelector("#result").innerHTML = calculate;
+  document.querySelector("#result").innerHTML = `Answer: ${calculate}`;
 }

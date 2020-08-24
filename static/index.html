@@ -11,19 +11,19 @@
     <script src="../js/calc.js"></script>
     <header class="title">Simple Calculator</header>
 
-    <form>
-      Value 1: <input type="text" id="value1" /> Value 2:
-      <input type="text" id="value2" />
+    <form class="form">
+      Value 1: <input type="text" id="value1" class="value1" /> Value 2:
+      <input type="text" id="value2" class="value2" />
       Operator:
-      <select id="operator">
-        <option value="add">Add</option>
-        <option value="subtract">Subtact</option>
-        <option value="multiply">Multiply</option>
-        <option value="divide">Divide</option>
+      <select id="operator" class="selectedOp">
+        <option value="add" class="add">Add</option>
+        <option value="subtract" class="subtract">Subtact</option>
+        <option value="multiply" class="multiply">Multiply</option>
+        <option value="divide" class="divide">Divide</option>
       </select>
-      <button type="button" onclick="calc()">Calculate</button>
+      <button type="button" onclick="calc()" class="button">Calculate</button>
     </form>
 
-    <div id="result"></div>
+    <div id="result" class="result">...</div>
   </body>
 </html>
